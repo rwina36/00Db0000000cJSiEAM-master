@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>test</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>test</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- test --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Geolocation --></label>
+        <name>Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multi-picklist --></label>
+        <name>Multi_picklist__c</name>
+        <picklistValues>
+            <masterLabel>Val 1</masterLabel>
+            <translation><!-- Val 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val 2</masterLabel>
+            <translation><!-- Val 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val 3</masterLabel>
+            <translation><!-- Val 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val 4</masterLabel>
+            <translation><!-- Val 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val 5</masterLabel>
+            <translation><!-- Val 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist --></label>
+        <name>Picklist__c</name>
+        <picklistValues>
+            <masterLabel>SVal 1</masterLabel>
+            <translation><!-- SVal 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVal 2</masterLabel>
+            <translation><!-- SVal 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVal 3</masterLabel>
+            <translation><!-- SVal 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVal 4</masterLabel>
+            <translation><!-- SVal 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVal 5</masterLabel>
+            <translation><!-- SVal 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Text area long --></label>
+        <name>Text_area_long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text area rich --></label>
+        <name>Text_area_rich__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text encrypted --></label>
+        <name>Text_encrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- auto-number --></label>
+        <name>auto_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- formula --></label>
+        <name>formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- simple url --></label>
+        <name>simple_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- test external --></label>
+        <name>test_external__c</name>
+    </fields>
+    <fields>
+        <label><!-- testaddpika --></label>
+        <name>testaddpika_del__c</name>
+        <picklistValues>
+            <masterLabel>pika1</masterLabel>
+            <translation><!-- pika1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pika2</masterLabel>
+            <translation><!-- pika2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pikatchou</masterLabel>
+            <translation><!-- pikatchou --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- text --></label>
+        <name>text__c</name>
+    </fields>
+    <fields>
+        <label><!-- text area --></label>
+        <name>text_area__c</name>
+    </fields>
+    <layouts>
+        <layout>test Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

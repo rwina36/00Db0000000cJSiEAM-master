@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>test_share_criteria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>test share criteria</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Picklist__c</field>
+            <operation>equals</operation>
+            <value>SVal 3</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>test</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>test</label>
+        <sharedTo>
+            <role>ChannelSalesTeam</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>COO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

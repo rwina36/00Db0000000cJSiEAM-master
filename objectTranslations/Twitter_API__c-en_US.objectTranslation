@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Twitter_API</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Twitter_API</value>
+    </caseValues>
+    <fields>
+        <label><!-- App Consumer Key --></label>
+        <name>App_Consumer_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- App Consumer Seceret --></label>
+        <name>App_Consumer_Seceret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oath 2 Endpoint --></label>
+        <name>Oath_2_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Timeline Endpoint --></label>
+        <name>User_Timeline_Endpoint__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Applications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>Candidate__c</name>
+        <relationshipLabel><!-- Job Applications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Application Number --></label>
+        <name>Legacy_Application_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <relationshipLabel><!-- Job Applications --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Error 3 --></errorMessage>
+        <name>test_validation_rule_add</name>
+    </validationRules>
+</CustomObjectTranslation>

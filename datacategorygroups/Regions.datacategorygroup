@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Europe</label>
+            <name>Europe</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Americas</label>
+            <name>Americas</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Africa</label>
+            <name>Africa</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Asia</label>
+            <name>Asia</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Regions</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

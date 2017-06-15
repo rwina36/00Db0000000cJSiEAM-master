@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- note test wf --></label>
+        <name>note_test_wf__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Note pust be &gt; 0 --></errorMessage>
+        <name>notes_greater_than_0</name>
+    </validationRules>
+</CustomObjectTranslation>

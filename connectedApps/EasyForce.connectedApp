@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>benh.reda@gmail.com</contactEmail>
+    <contactPhone>+33603320823</contactPhone>
+    <label>BlueFactory</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3000/users/auth/salesforce/callback
+http://localhost:3000/users/auth/salesforcesandbox/callback
+http://localhost:3000/auth/salesforce/callback
+http://localhost:3000/auth/salesforcesandbox/callback
+https://easyforce.herokuapp.com/users/auth/salesforce/callback
+https://easyforce.herokuapp.com/users/auth/salesforcesandbox/callback
+https://easyforce.herokuapp.com/auth/salesforce/callback
+https://easyforce.herokuapp.com/auth/salesforcesandbox/callback
+https://www.easyforce.io/users/auth/salesforce/callback
+https://www.easyforce.io/users/auth/salesforcesandbox/callback
+https://www.easyforce.io/auth/salesforce/callback
+https://www.easyforce.io/auth/salesforcesandbox/callback
+https://bluefactory.herokuapp.com/users/auth/salesforce/callback
+https://bluefactory.herokuapp.com/users/auth/salesforcesandbox/callback
+https://bluefactory.herokuapp.com/auth/salesforce/callback
+https://bluefactory.herokuapp.com/auth/salesforcesandbox/callback
+https://www.bluefactory.io/users/auth/salesforce/callback
+https://www.bluefactory.io/users/auth/salesforcesandbox/callback
+https://www.bluefactory.io/auth/salesforce/callback
+https://www.bluefactory.io/auth/salesforcesandbox/callback
+https://easyforce-web-xzj3yj6-1958507751.eu-west-1.elb.amazonaws.com/users/auth/salesforce/callback
+https://easyforce-web-xzj3yj6-1958507751.eu-west-1.elb.amazonaws.com/users/auth/salesforcesandbox/callback
+https://easyforce-web-xzj3yj6-1958507751.eu-west-1.elb.amazonaws.com/auth/salesforce/callback
+https://easyforce-web-xzj3yj6-1958507751.eu-west-1.elb.amazonaws.com/auth/salesforcesandbox/callback</callbackUrl>
+        <consumerKey>3MVG99qusVZJwhskqkXIlqzbK.bvvnQNhGCoOD6vI0ubfGBXTnGr_BB7SgGtvsK8Ls2TOFGIC.lU9bGLqIQZn</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+</ConnectedApp>

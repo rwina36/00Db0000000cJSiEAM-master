@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Positions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Closed --></label>
+        <name>Date_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Opened --></label>
+        <name>Date_Opened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Engineeting</masterLabel>
+            <translation><!-- Engineeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration renamed --></label>
+        <name>Duration_renamed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hiring manager --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please make sure the the people is a hiring manager. --></errorMessage>
+        </lookupFilter>
+        <name>Hiring_manager__c</name>
+        <relationshipLabel><!-- Positions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pay Grade --></label>
+        <name>Pay_Grade__c</name>
+        <picklistValues>
+            <masterLabel>ACT-100</masterLabel>
+            <translation><!-- ACT-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACT-200</masterLabel>
+            <translation><!-- ACT-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACT-300</masterLabel>
+            <translation><!-- ACT-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACT-400</masterLabel>
+            <translation><!-- ACT-400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-100</masterLabel>
+            <translation><!-- C-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-200</masterLabel>
+            <translation><!-- C-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-300</masterLabel>
+            <translation><!-- C-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-400</masterLabel>
+            <translation><!-- C-400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG-100</masterLabel>
+            <translation><!-- ENG-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG-200</masterLabel>
+            <translation><!-- ENG-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG-300</masterLabel>
+            <translation><!-- ENG-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG-400</masterLabel>
+            <translation><!-- ENG-400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT-100</masterLabel>
+            <translation><!-- IT-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT-200</masterLabel>
+            <translation><!-- IT-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT-300</masterLabel>
+            <translation><!-- IT-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT-400</masterLabel>
+            <translation><!-- IT-400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-100</masterLabel>
+            <translation><!-- S-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-200</masterLabel>
+            <translation><!-- S-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-300</masterLabel>
+            <translation><!-- S-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-400</masterLabel>
+            <translation><!-- S-400 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ecrypt test --></label>
+        <name>ecrypt_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- testdatetimeadd --></label>
+        <name>testdatetimeadd__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
